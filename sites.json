@@ -1,0 +1,70 @@
+{
+	"discord": {
+		"fetchSite": true,
+		"api": true,
+		"enabled": true,
+		"querySelectors": ["[aria-label=\"Message #general\"]"],
+		"hostname": "discord.com"
+	},	
+	"youtube": {
+		"fetchSite": true,
+		"description": "unoffender is adpocalypse proof (disclaimer: it's not)",
+		"api": true,
+		"enabled": true,
+		"querySelectors": ["#contenteditable-root"],
+		"hostname": "youtube.com",
+		"categoriesEnabled": ["Google","Youtube"]
+	},
+	"steamcommunity": {
+		"fetchSite": true,
+		"description": "make Gabe happy, use unoffender - tree walker won't work here",
+		"api": true,
+		"enabled": true,
+		"markingMethod": "shadowEditor",
+		"querySelectors": [".forumtopic_reply_textarea"],
+		"hostname": "steamcommunity.com",
+		"categoriesEnabled": ["Steam (profanity)","Steam (banned)"]
+	},
+	"gmail": {
+		"fetchSite": true,
+		"api": true,
+		"enabled": true,
+		"querySelectors": [".GP"],
+		"hostname": "mail.google.com",
+		"categoriesEnabled": ["Google"]
+	},
+	"x": {
+		"fetchSite": true,
+		"description": "you can rename this to twitter - he won't know",
+		"api": true,
+		"enabled": true,
+		"querySelectors": [".DraftEditor-editorContainer"],
+		"hostname": "x.com"
+	},
+	"linkedin": {
+		"description": "justify your SoMe addiction by calling it networking",
+		"fetchSite": true,
+		"api": true,
+		"enabled": true,
+		"querySelectors": [
+			".share-box__text-editor",
+			".editor-container"
+		],
+		"hostname": "linkedin.com"
+	},
+	"reddit": {
+		"fetchSite": true,
+		"api": true,
+		"enabled": true,
+		"querySelectors": ["[data-lexical-editor='true']"],
+		"hostname": "reddit.com"
+	},
+	"chatGPT": {
+		"description": "don't trigger the extinction event - use unoffender",
+		"fetchSite": true,
+		"api": true,
+		"enabled": true,
+		"querySelectors": ["#prompt-textarea"],
+		"hostname": "chatgpt.com"
+	}
+}
